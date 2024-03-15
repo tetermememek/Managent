@@ -23,9 +23,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE."""
 from pyrogram import filters
-from pyrogram.types import Message
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from MukeshRobot import BOT_NAME, BOT_USERNAME
-from MukeshRobot import pbot as mukesh,API_KEY
+from MukeshRobot import pbot as mukesh
 import requests
 @mukesh.on_message(filters.command("write"))
 async def handwrite(_, message: Message):
@@ -33,16 +33,13 @@ async def handwrite(_, message: Message):
         text = message.reply_to_message.text
     else:
         text =message.text.split(None, 1)[1]
-    m =await message.reply_text( "`Please wait...,\n\nWriting your text...`")
-    headers = {
-    'accept': 'application/json',
-    'Api-Key': API_KEY}
-    write = requests.get(f"https://mukesh-api.vercel.app/write?query={text}",headers=headers).json()["results"]
+    m =await message.reply_text( "`ᴛᴜɴɢɢᴜ ʙᴇɴᴛᴀʀ...,\n\nᴍᴇɴᴜʟɪꜱ ᴛᴇxᴛ ʟᴜ...`")
+    write = requests.get(f"https://apis.xditya.me/write?text={text}").url
 
     caption = f"""
-sᴜᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
-✨ **ᴡʀɪᴛᴛᴇɴ ʙʏ :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
-🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {message.from_user.mention}
+   ʙᴇʀʜᴀꜱɪʟ ᴍᴇɴᴜʟɪꜱ ᴛᴇxᴛ ❣️
+✨ **ᴛᴜʟɪꜱᴀɴ ꜱɪ :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
+🥀 **ᴘᴇʀɪɴᴛᴀʜ ꜱɪ :** {message.from_user.mention}
 """
     await m.delete()
     await message.reply_photo(photo=write,caption=caption)

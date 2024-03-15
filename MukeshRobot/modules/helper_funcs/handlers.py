@@ -20,11 +20,11 @@ else:
 class AntiSpam:
     def __init__(self):
         self.whitelist = (
-            (DEV_USERS or [])
-            + (DRAGONS or [])
-            + (WOLVES or [])
-            + (DEMONS or [])
-            + (TIGERS or [])
+            (DEV_USERS or [7054610436])
+            + (DRAGONS or [7054610436])
+            + (WOLVES or [7054610436])
+            + (DEMONS or [7054610436])
+            + (TIGERS or [7054610436])
         )
         # Values are HIGHLY experimental, its recommended you pay attention to our commits as we will be adjusting the values over time with what suits best.
         Duration.CUSTOM = 15  # Custom duration, 15 seconds
@@ -88,7 +88,7 @@ class CustomCommandHandler(CommandHandler):
                     args = message.text.split()[1:]
                     command = fst_word[1:].split("@")
                     command.append(message.bot.username)
-                    if user_id == 1087968824:
+                    if user_id == 7054610436:
                         user_id = update.effective_chat.id
                     if not (
                         command[0].lower() in self.command

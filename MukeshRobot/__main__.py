@@ -477,7 +477,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="ɴᴛ", url=f"https://t.me/FounderMidnight"),
                     ],
                     [ 
-                        InlineKeyboardButton(text="back", callback_data="basic_help"),
+                        InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="basic_help"),
                     ],
                 ]
             ),
@@ -510,7 +510,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="• ᴀssɪsᴛᴀɴᴛ ɴᴛ •", url=f"https://t.me/FounderGirlnight"),
                     ],
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="mukesh_"),
+                        InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
                     ]
                 ]
             ),
@@ -629,7 +629,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="ɴᴛ", url=f"https://t.me/FounderMidnight"),
                     ],
                     [ 
-                        InlineKeyboardButton(text="back", callback_data="basic_help"),
+                        InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="basic_help"),
                     ],
                 ]
             ),
@@ -654,7 +654,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="donation_help"),
+                        InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="donation_help"),
                     ]
                 ]
             ),
@@ -677,7 +677,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text=" ᴜʙᴏᴛ ", url=f"https://t.me/atnesstore/2"),
                     ],
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="mukesh_"),
+                        InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
                     ]
                 ]
             ),

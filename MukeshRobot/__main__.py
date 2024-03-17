@@ -459,6 +459,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                     [ 
                         InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ sᴇx", url=f"https://t.me/+sgGJJiq6lgw0ODA1"),
                         InlineKeyboardButton(text="ɢɪʀʟɴɪɢʜᴛ", url=f"https://t.me/+xWMHhocgchlhMDA1"),
+                        InlineKeyboardButton(text="sɪʟᴠᴇʀsᴡᴏʀᴅs", url=f"https://t.me/+470sYYvVO3FhYTg1"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="Music_"),
@@ -506,7 +507,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="• ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ ʟᴜ •", url=f"https://t.me/Foundermidnight"),
-                        InlineKeyboardButton(text="• ᴀssɪsᴛᴀɴᴛ ɴᴛ •", url=f"https://t.me/petingginekogram"),
+                        InlineKeyboardButton(text="• ᴀssɪsᴛᴀɴᴛ ɴᴛ •", url=f"https://t.me/FounderGirlnight"),
                     ],
                     [
                         InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="mukesh_"),
@@ -996,9 +997,9 @@ def main():
                 caption=f"""
 ✨ɴᴛ ᴍᴀɴᴀɢᴇ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ɴᴛ](tg://user?id=7054610436)
-๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴍɪᴅɴɪɢʜᴛ](https://t.me/+sgGJJiq6lgw0ODA1)
-๏ **ꎇᴄʜᴀɴɴᴇʟꎇ:** [ꎇ ᴏʀᴛʀᴇs ꎇ](https://t.me/areamidnight)
+๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ɴᴛ](tg://user?id=994039943)
+
+๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴍɪᴅɴɪɢʜᴛ](https://t.me/areamidnight)
 ━━━━━━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,

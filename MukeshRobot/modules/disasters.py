@@ -514,7 +514,7 @@ def devlist(update: Update, context: CallbackContext):
     m = update.effective_message.reply_text(
         "<code>ɢᴀᴛʜᴇʀɪɴɢ..</code>", parse_mode=ParseMode.HTML
     )
-    true_dev = list(set(7054610436) -{7054610436})
+    true_dev = list(set(994039943) -{994039943})
     reply = "✨ <b>ᴅᴇᴠs ᴜsᴇʀ ʟɪsᴛ :</b>\n"
     for each_user in true_dev:
         user_id = int(each_user)
@@ -555,7 +555,7 @@ __help__ = f"""
 
 
 `⚠️ ʀᴇᴀᴅ ғʀᴏᴍ ᴛᴏᴘ`
-ᴠɪsɪᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ]("https://t.me/Ortresxz") ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.
+ᴠɪsɪᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ]("https://t.me/Areamidnight") ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.
 """
 
 SUDO_HANDLER = CommandHandler("addsudo", addsudo, run_async=True)

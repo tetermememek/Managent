@@ -459,7 +459,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                     [ 
                         InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ sᴇx", url=f"https://t.me/+sgGJJiq6lgw0ODA1"),
                         InlineKeyboardButton(text="ɢɪʀʟɴɪɢʜᴛ", url=f"https://t.me/+xWMHhocgchlhMDA1"),
-                        InlineKeyboardButton(text="sɪʟᴠᴇʀsᴡᴏʀᴅs", url=f"https://t.me/+470sYYvVO3FhYTg1"),
+                        InlineKeyboardButton(text="ʜᴇʟʟs ᴀɴɢᴇʟs", url=f"https://t.me/+470sYYvVO3FhYTg1"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="Music_"),
@@ -993,13 +993,13 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 f"@Berlinmusic_support",
-                photo=f"https://graph.org/file/512a624c25fafd6654d64.jpg",
+                photo=f"https://telegra.ph//file/3163a7f6a49b9c42e6c52.jpg",
                 caption=f"""
 ✨ɴᴛ ᴍᴀɴᴀɢᴇ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
 ๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ɴᴛ](tg://user?id=994039943)
 
-๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴍɪᴅɴɪɢʜᴛ](https://t.me/areamidnight)
+๏ ** ғᴏᴜɴᴅᴇʀ :** [ᴍɪᴅɴɪɢʜᴛ](https://t.me/hellsangelsarea)
 ━━━━━━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,

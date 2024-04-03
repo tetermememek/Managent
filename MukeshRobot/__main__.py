@@ -436,7 +436,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴅᴀɴᴀ💰", url=f"https://link.dana.id/qr/2gmos5bu"),
+                        InlineKeyboardButton(text="ᴅᴀɴᴀ💰", url=f"https://link.dana.id/qr/ag3zovr2"),
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -490,7 +490,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴅᴀɴᴀ💰", url=f"https://link.dana.id/qr/2gmos5bu"),
+                        InlineKeyboardButton(text="ᴅᴀɴᴀ💰", url=f"https://link.dana.id/qr/ag3zovr2"),
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="donation_help"),
@@ -690,7 +690,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴅᴀɴᴀ💰", url=f"https://link.dana.id/qr/2gmos5bu"),
+                        InlineKeyboardButton(text="ᴅᴀɴᴀ💰", url=f"https://link.dana.id/qr/ag3zovr2"),
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="Music_"),
